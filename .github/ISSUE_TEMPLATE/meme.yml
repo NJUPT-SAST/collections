@@ -1,0 +1,20 @@
+name: languages' meme
+description: Share a meme!
+title: "[meme]: "
+labels: [meme]
+assignees:
+  - naive_scrooge
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share this meme!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A meme"
+    validations:
+      required: true

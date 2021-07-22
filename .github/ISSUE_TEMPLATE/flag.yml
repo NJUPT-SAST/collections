@@ -1,0 +1,21 @@
+name: Making a flag
+description: I must
+title: "[flag]: "
+labels: [flag]
+assignees:
+  - naive_scrooge
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to making your flag!
+  - type: textarea
+    id: It-is-certain
+    attributes:
+      label: What will happen?
+      description: Also tell us, what will happen?
+      placeholder: Tell us what you think will happen!
+      value: "A flag"
+    validations:
+      required: true
+      

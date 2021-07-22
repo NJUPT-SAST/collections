@@ -1,0 +1,20 @@
+name: Planting kusa
+description: It's worth buying.
+title: "[BuyBuyBuy]: "
+labels: [BuyBuyBuy]
+assignees:
+  - naive_scrooge
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share this good!
+  - type: textarea
+    id: that-is-good
+    attributes:
+      label: What to buy?
+      description: Also tell us, what did you want to recommend?
+      placeholder: Tell us what you think is good!
+      value: "BuyBuyBuy"
+    validations:
+      required: true
